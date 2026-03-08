@@ -1,0 +1,98 @@
+# Digital Lost & Found System
+
+Digital Lost & Found System is a database-driven platform that helps users report lost items, submit found item reports, and manage the claiming process in an organized way. The platform allows users to keep records of lost and found belongings, track claim requests, and support verification before returning items to the rightful owner.
+
+---
+
+## Features
+
+#### Report Lost Items
+Users can submit a **lost item report** by providing item details such as name, category, brand, color, location, and date of loss.
+
+This helps maintain a structured record of items that have gone missing.
+
+---
+
+#### Report Found Items
+Users can also submit a **found item report** when they discover an item.
+
+The report stores important information such as item details, where it was found, and when it was found.
+
+---
+
+#### Item Categorization
+Items can be organized into different categories.
+
+Example categories include:
+
+- **Electronics**
+  - Mobile phone
+  - Earbuds
+  - Charger
+
+- **Documents**
+  - Student ID card
+  - NID card
+  - Passport copy
+
+- **Accessories**
+  - Watch
+  - Wallet
+  - Keys
+
+- **Bags & Personal Items**
+  - Backpack
+  - Water bottle
+  - Umbrella
+
+---
+
+#### Claim Request System
+If a user finds a matching item, they can submit a **claim request**.
+
+This allows the system to keep track of who is requesting ownership of a found item.
+
+---
+
+#### Claim Verification
+Claim requests go through a **verification process** before approval.
+
+This helps reduce false claims and ensures that the item is returned to the correct owner.
+
+---
+
+#### Item Status Tracking
+The system can track item progress through different statuses.
+
+Example statuses include:
+
+- **Lost**
+- **Found**
+- **Claim Pending**
+- **Returned**
+
+This makes it easier to monitor the full lifecycle of an item.
+
+---
+
+#### Search and Filter
+Users can search reports based on item category, location, brand, or status.
+
+This makes it easier to find possible matches between lost and found items.
+
+---
+
+#### Return Record Management
+Once a claim is approved, the system stores a **return record**.
+
+This creates accountability and keeps a history of returned items.
+
+---
+
+## Technology Stack
+
+| Layer | Technology |
+|------|------------|
+| Database | MySQL |
+| Backend | PHP / Node.js |
+| Frontend | HTML, CSS, JavaScript |
