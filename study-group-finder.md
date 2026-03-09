@@ -1,202 +1,116 @@
-Study Group Finder System
-Overview
+# Study Group Finder System
 
-The Study Group Finder System is a database-driven platform designed to help university students find or create study groups based on courses, schedules, and academic interests.
+Study Group Finder System is a platform designed to help university students find or create study groups based on courses, schedules, and academic interests. The system helps students collaborate more effectively by allowing them to organize study sessions, share resources, and connect with classmates taking the same courses.
 
-Students often struggle to find peers for collaborative learning. This platform allows students to create course-specific study groups, join existing groups, schedule study sessions, and share learning resources.
+By providing a structured environment for academic collaboration, the system improves productivity and encourages group learning.
 
-By organizing study groups in a centralized system, the platform improves collaboration, productivity, and academic performance among students.
+---
 
-Core Features
-Student Registration
+## Features
 
-Students create an account using:
+#### Student Registration
+Students create accounts using their academic information such as:
 
-Name
+- Name
+- Student ID
+- Department
+- Semester
+- Email
 
-Student ID
+This helps the system organize users and recommend relevant study groups.
 
-Department
+---
 
-Semester
-
-Email
-
-This information helps the system organize students based on academic background.
-
-Course-Based Group Creation
-
+#### Course-Based Study Groups
 Students can create study groups for specific courses.
 
-Example courses:
+Example courses include:
 
-CSE110 – Programming
+- CSE110 – Programming
+- CSE220 – Data Structures
+- MAT120 – Calculus
 
-CSE220 – Data Structures
+The creator of the group becomes the **group administrator**.
 
-MAT120 – Calculus
+---
 
-The student who creates the group becomes the group administrator.
+#### Join or Request to Join Groups
+Students can join study groups in two ways:
 
-Join or Request to Join Groups
+- Join open groups instantly
+- Send join requests to private groups
 
-Students can join groups in two ways:
+Group administrators can approve or reject requests.
 
-Join open groups directly
+---
 
-Send join requests to private groups
-
-Group admins can approve or reject requests.
-
-Study Schedule Management
-
-Each group can create study session schedules.
+#### Study Session Scheduling
+Groups can create and manage study session schedules.
 
 Example:
 
-Monday – 7 PM (Online)
+- Monday – 7 PM (Online)
+- Wednesday – 5 PM (Library)
 
-Wednesday – 5 PM (Library)
+Members can view upcoming sessions and participate.
 
-Members can view upcoming sessions and plan accordingly.
+---
 
-Skill Level Matching
+#### Skill Level Matching
+Students can select their academic skill level:
 
-Students can specify their skill level:
+- Beginner
+- Intermediate
+- Advanced
 
-Beginner
+This helps create balanced and productive study groups.
 
-Intermediate
+---
 
-Advanced
+## Unique Features
 
-This helps create balanced and effective study groups.
-
-Unique Features
-Smart Study Group Recommendation
-
+#### Smart Study Group Recommendation
 The system recommends study groups based on:
 
-Same course
+- Same course
+- Same semester
+- Similar study schedules
 
-Same semester
+---
 
-Similar schedule availability
+#### Location-Based Study Groups
+Students can choose study locations such as:
 
-Example recommendation:
+- Library
+- Cafeteria
+- Study rooms
+- Online (Zoom / Google Meet)
 
-“Students taking CSE220 Data Structures may want to join Group A.”
+---
 
-Location-Based Study Groups
+#### Resource Sharing
+Group members can upload and share:
 
-Students can choose meeting locations such as:
+- Lecture notes
+- PDFs
+- Slides
+- Practice questions
 
-Library
+---
 
-Cafeteria
+#### Study Partner Matching
+Students can find **one-on-one study partners** based on:
 
-Study room
+- Course
+- Schedule availability
+- Skill level
 
-Online (Zoom / Google Meet)
+---
 
-Group Discussion Board
+## Technology Stack
 
-Group members can communicate through a discussion board.
-
-They can:
-
-Ask questions
-
-Share notes
-
-Discuss assignments
-
-Resource Sharing
-
-Members can upload and share:
-
-Lecture notes
-
-PDFs
-
-Slides
-
-Practice problems
-
-Study Session Attendance
-
-The system tracks which members attend each study session.
-
-This helps measure active participation.
-
-Group Rating System
-
-Members can rate study groups.
-
-Example:
-
-This helps new students choose active and effective groups.
-
-Group Activity Score
-
-The system tracks activity such as:
-
-Number of study sessions
-
-Resources shared
-
-Member participation
-
-More active groups appear higher in search results.
-
-Deadline & Exam Reminder
-
-Groups can set reminders for:
-
-Assignment deadlines
-
-Midterms
-
-Final exams
-
-Members receive notifications.
-
-Study Partner Matching
-
-Students can find one-to-one study partners based on:
-
-Course
-
-Availability
-
-Skill level
-
-Possible Database Entities
-
-Students
-
-Courses
-
-Study_Groups
-
-Group_Members
-
-Study_Sessions
-
-Locations
-
-Resources
-
-Messages
-
-Join_Requests
-
-Ratings
-
-Notifications
-
-Technology Stack
-Layer	Technology
-Database	MySQL
-Backend	PHP / Node.js
-Frontend	HTML, CSS, JavaScript
+| Layer | Technology |
+|------|------------|
+| Database | MySQL |
+| Backend | PHP / Node.js |
+| Frontend | HTML, CSS, JavaScript |
